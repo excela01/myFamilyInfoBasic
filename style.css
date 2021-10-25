@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(_63A2113.jpG);
+  background-size: cover;
+}
+
+.header {
+  margin: 20px auto;
+  padding: 100px;
+  background-color: rgba(250, 235, 215, 0.664);
+  color: blueviolet;
+  align-content: center;
+  margin-top: 50%;
+  border: 2px solid gold;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
