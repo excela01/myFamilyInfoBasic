@@ -1,11 +1,51 @@
 @media only screen and (max-width: 510px) {
   header .header {
     font-size: 80%;
-    padding: 20px 1%;
+    padding: 20px 13%;
     background-color: rgba(46, 10, 10, 0.562);
     color: rgb(199, 199, 199);
     text-align: center;
     border: 2px solid rgba(20, 19, 20, 0.705);
     margin-top: 10px;
+    width: 250px;
+    height: 250px;
+    font-size: 70%;
+  }
+  .header .animate__bounce {
+    padding: 10%;
+    width: 80%;
+    height: 19%;
+    margin: auto;
+  }
+
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+    }
+    33% {
+      transform: translateY(30%);
+      -webkit-transform: translateY(30%);
+      -moz-transform: translateY(30%);
+      -ms-transform: translateY(30%);
+      -o-transform: translateY(30%);
+    }
+    66% {
+      transform: translateX(59%) translateY(30%);
+      -webkit-transform: translateX(59%) translateY(30%);
+      -moz-transform: translateX(59%) translateY(30%);
+      -ms-transform: translateX(59%) translateY(30%);
+      -o-transform: translateX(59%) translateY(30%);
+    }
+    100% {
+      transform: translateX(59%);
+      -webkit-transform: translateX(59%);
+      -moz-transform: translateX(59%);
+      -ms-transform: translateX(59%);
+      -o-transform: translateX(59%);
+    }
   }
 }

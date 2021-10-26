@@ -16,29 +16,43 @@ body {
 
 .header {
   margin: 20px 2%;
-  padding: 100px;
+  padding: 5%;
+  padding-top: 27%;
   align-content: center;
-  margin-top: 50%;
-  /* border: 2px solid gold; */
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-  box-shadow: 4px 4px 5px rgba(7, 186, 240, 0.959),
-    -4px -4px 5px rgba(255, 0, 212, 0.993);
+  margin-top: 30%;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: 4px 4px 5px rgb(240, 7, 7), -4px -4px 5px rgba(25, 0, 255, 0.993);
   position: relative;
   background-color: rgba(46, 10, 10, 0.562);
   color: rgb(199, 199, 199);
   text-align: center;
   border: 2px solid rgba(20, 19, 20, 0.267);
+  animation: move 1s ease-in forwards 15 alternate;
+  -webkit-animation: move 1s ease-in forwards 15 alternate;
+}
+
+.header:hover {
+  /*transform: translateX(10%);
+  */
+  transform: translateX(30%);
+  -webkit-transform: translateX(30%);
+  -moz-transform: translateX(30%);
+  -ms-transform: translateX(30%);
+  -o-transform: translateX(30%);
 }
 
 .header .animate__bounce {
   margin-top: 5px;
+  font-size: 85%;
   padding: 10px;
   color: rgb(236, 204, 161);
-  top: 10px;
+  /* top: 10px; */
   border: 1px solid #afad3f;
   background-color: rgb(143, 143, 143);
   width: 40%;
@@ -50,4 +64,35 @@ body {
   -o-border-radius: 19px;
 
   box-shadow: inset 2px 2px 3px #d1d1ce, inset -2px -2px 2px #140101;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+  33% {
+    transform: translateY(30%);
+    -webkit-transform: translateY(30%);
+    -moz-transform: translateY(30%);
+    -ms-transform: translateY(30%);
+    -o-transform: translateY(30%);
+  }
+  66% {
+    transform: translateX(19%) translateY(30%);
+    -webkit-transform: translateX(19%) translateY(30%);
+    -moz-transform: translateX(19%) translateY(30%);
+    -ms-transform: translateX(19%) translateY(30%);
+    -o-transform: translateX(19%) translateY(30%);
+  }
+  100% {
+    transform: translateX(19%);
+    -webkit-transform: translateX(19%);
+    -moz-transform: translateX(19%);
+    -ms-transform: translateX(19%);
+    -o-transform: translateX(19%);
+  }
 }
