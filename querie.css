@@ -1,0 +1,11 @@
+@media only screen and (max-width: 510px) {
+  header .header {
+    font-size: 80%;
+    padding: 20px 1%;
+    background-color: rgba(46, 10, 10, 0.562);
+    color: rgb(199, 199, 199);
+    text-align: center;
+    border: 2px solid rgba(20, 19, 20, 0.705);
+    margin-top: 10px;
+  }
+}

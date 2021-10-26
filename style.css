@@ -5,12 +5,17 @@
 }
 
 body {
-  background-image: url(_63A2113.jpG);
+  background-image: linear-gradient(
+      rgba(189, 70, 149, 0.411),
+      rgba(33, 33, 141, 0.322)
+    ),
+    url(_63A2113.jpG);
   background-size: cover;
+  background-attachment: scroll;
 }
 
 .header {
-  margin: 20px auto;
+  margin: 20px 2%;
   padding: 100px;
   background-color: rgba(250, 235, 215, 0.664);
   color: blueviolet;
@@ -22,4 +27,6 @@ body {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+  box-shadow: 4px 4px 5px rgba(211, 9, 93, 0.877),
+    -4px -4px 5px rgba(0, 255, 149, 0.767);
 }
