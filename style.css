@@ -17,9 +17,9 @@ body {
 .header {
   margin: 20px 2%;
   padding: 5%;
-  padding-top: 17%;
+  padding-top: 10%;
   align-content: center;
-  margin-top: 30%;
+  margin-top: 5%;
   width: 500px;
   height: 500px;
   border-radius: 50%;
@@ -33,7 +33,7 @@ body {
   text-align: center;
   border: 2px solid rgba(20, 19, 20, 0.267);
   animation: move 1s ease-in forwards 15 alternate;
-  -webkit-animation: move 1s ease-in forwards 20 alternate;
+  -webkit-animation: move 1s ease-in forwards 15 alternate;
 }
 
 .header:hover {
@@ -79,19 +79,27 @@ body {
     -moz-transform: translateY(30%);
     -ms-transform: translateY(30%);
     -o-transform: translateY(30%);
+
+    box-shadow: 4px 4px 5px rgb(7, 240, 38),
+      -4px -4px 5px rgba(255, 166, 0, 0.993);
+    background-color: rgba(10, 27, 46, 0.562);
   }
   66% {
-    transform: translateX(19%) translateY(30%);
-    -webkit-transform: translateX(19%) translateY(30%);
-    -moz-transform: translateX(19%) translateY(30%);
-    -ms-transform: translateX(19%) translateY(30%);
-    -o-transform: translateX(19%) translateY(30%);
+    transform: translateX(39%) translateY(30%);
+    -webkit-transform: translateX(39%) translateY(30%);
+    -moz-transform: translateX(39%) translateY(30%);
+    -ms-transform: translateX(39%) translateY(30%);
+    -o-transform: translateX(39%) translateY(30%);
+
+    box-shadow: 4px 4px 5px rgb(116, 7, 240),
+      -4px -4px 5px rgba(255, 0, 212, 0.993);
+    background-color: rgba(46, 10, 10, 0.562);
   }
   100% {
-    transform: translateX(19%);
-    -webkit-transform: translateX(19%);
-    -moz-transform: translateX(19%);
-    -ms-transform: translateX(19%);
-    -o-transform: translateX(19%);
+    transform: translateX(39%);
+    -webkit-transform: translateX(39%);
+    -moz-transform: translateX(39%);
+    -ms-transform: translateX(39%);
+    -o-transform: translateX(39%);
   }
 }
